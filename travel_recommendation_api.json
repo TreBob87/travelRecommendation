@@ -1,0 +1,91 @@
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "https://c4.wallpaperflare.com/wallpaper/136/875/670/5bd32ca961722-wallpaper-preview.jpg",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge.",
+            "timeZone": "Australia/Sydney"
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "https://c4.wallpaperflare.com/wallpaper/12/693/107/cityscape-melbourne-river-skyline-wallpaper-preview.jpg",
+            "description": "A cultural hub famous for its art, food, and diverse neighborhoods.",
+            "timeZone": "Australia/Melbourne"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "https://c0.wallpaperflare.com/preview/885/819/673/tokyo-japan-streets.jpg",
+            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture.",
+            "timeZone": "Asia/Tokyo"
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "https://c4.wallpaperflare.com/wallpaper/994/253/68/japan-mountains-mount-fuji-asian-architecture-wallpaper-preview.jpg",
+            "description": "Known for its historic temples, gardens, and traditional tea houses.",
+            "timeZone": "Asia/Tokyo"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "https://c4.wallpaperflare.com/wallpaper/929/494/437/rio-de-janeiro-4k-pc-desktop-hd-wallpaper-preview.jpg",
+            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks.",
+            "timeZone": "America/Sao_Paulo"
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl": "https://c4.wallpaperflare.com/wallpaper/274/167/705/skyscraper-south-america-pinheiros-river-brazil-wallpaper-preview.jpg",
+            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife.",
+            "timeZone": "America/Sao_Paulo"
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat, Cambodia",
+        "imageUrl": "https://c4.wallpaperflare.com/wallpaper/538/401/299/panoramas-buddhism-temple-mist-wallpaper-preview.jpg",
+        "description": "A UNESCO World Heritage site and the largest religious monument in the world.",
+        "timeZone": "Asia/Phnom_Penh"
+      },
+      {
+        "id": 2,
+        "name": "Taj Mahal, India",
+        "imageUrl": "https://c4.wallpaperflare.com/wallpaper/419/140/867/closed-up-photo-of-pink-petaled-flower-wallpaper-preview.jpg",
+        "description": "An iconic symbol of love and a masterpiece of Mughal architecture.",
+        "timeZone": "Asia/Kolkata"
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Bora Bora, French Polynesia",
+        "imageUrl": "https://c4.wallpaperflare.com/wallpaper/797/146/421/landscape-bora-bora-wallpaper-preview.jpg",
+        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows.",
+        "timeZone": "Pacific/Tahiti"
+      },
+      {
+        "id": 2,
+        "name": "Copacabana Beach, Brazil",
+        "imageUrl": "https://c4.wallpaperflare.com/wallpaper/565/221/94/5bd32fc4eb6b8-wallpaper-preview.jpg",
+        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views.",
+        "timeZone": "America/Sao_Paulo"
+      }
+    ]
+  }
+  
