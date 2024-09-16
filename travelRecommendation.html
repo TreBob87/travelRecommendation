@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Travel Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: URL("https://as2.ftcdn.net/v2/jpg/00/95/45/99/1000_F_95459914_LI2LFSpDTn2xEnGVvgD4Prm6djBp0K9B.jpg");
+            background-size: cover;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 12px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        nav form {
+            float: right;
+            margin-right: 16px;
+        }
+        nav input[type="text"] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+        nav button {
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-left: 4px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+        nav button:hover {
+            background: #ccc;
+        }
+        /* Left Sidebar */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 60px;
+            padding-top: 70px; /* Adjust if navbar height changes */
+            background-color: transparent;
+        }
+        .sidebar a {
+            display: block;
+            text-align: center;
+            padding: 20px 0;
+            color: white;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .sidebar a img {
+            width: 30px;
+            height: 30px;
+            filter: drop-shadow(1px 1px 1px black);
+        }
+        
+        /* Main Content */
+        .main-content {
+            margin-left: 60px; /* Same as sidebar width */
+        }
+        .introduction {
+            padding: 50px;
+            text-align: center;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .introduction h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .introduction p {
+            font-size: 1.5em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+         /* Styles for Recommendations */
+         #recommendations-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .recommendation-card {
+            width: 300px;
+            margin: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .recommendation-card img {
+            width: 100%;
+            height: auto;
+        }
+        .recommendation-card h3 {
+            margin: 15px 0 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .recommendation-card p {
+            padding: 0 15px 15px;
+            color: #777;
+        }
+    </style>
+    <!-- Add inside the <head> tag -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="travel_recommendation.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+        <form id="search-form" action="#" method="GET">
+            <input type="text" id="search-field" name="search" placeholder="Enter keywords">
+            <button type="submit" id="search-button">Search</button>
+            <button type="reset">Reset</button>
+        </form>
+    </nav>
+    <!-- Left Sidebar with Social Media Icons -->
+    <div class="sidebar">
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="introduction">
+            <h1>Welcome to My Travel Website</h1>
+            <p>
+                Embark on a journey of discovery with us! Explore breathtaking destinations, uncover hidden gems, and plan your perfect getaway. Whether you're an adventurer, a culture enthusiast, or seeking relaxation, our website offers personalized recommendations to make your travel dreams a reality.
+            </p>
+        </div>
+    </div>
+    <!-- Container for recommendations -->
+    <div id="recommendations-container">
+        <!-- Recommendations will be injected here by JavaScript -->
+    </div>
+<script src='travel_recommendation.js'></script>    
+</body>
+</html>
